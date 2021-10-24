@@ -1,0 +1,23 @@
+.header {
+  color: white;
+  background: #212121;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-block-start: 1rem;
+  box-shadow: #212121;
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search > input {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
